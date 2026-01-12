@@ -1,8 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { ArrowLeft, Download } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { ArrowLeft } from "lucide-react"
 import { Card } from "@/components/ui/card"
 import type { BirthdayConfig } from "@/lib/content"
 
