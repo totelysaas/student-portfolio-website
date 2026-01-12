@@ -35,13 +35,9 @@ export function BirthdayGallery({ photos }: { photos: BirthdayConfig["photos"] }
             </div>
 
             <div className="mt-16 text-center">
-                <p className="text-sm text-muted-foreground mb-6">
+                <p className="text-sm text-muted-foreground">
                     Click any photo to view it larger.
                 </p>
-                <Button size="lg" variant="outline" className="gap-2 bg-transparent">
-                    <Download className="w-4 h-4" />
-                    Download All Photos
-                </Button>
             </div>
 
             {selectedYear && (
